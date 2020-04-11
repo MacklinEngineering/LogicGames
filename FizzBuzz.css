@@ -1,0 +1,94 @@
+h1, h2, h3{
+  color: white;
+  margin-left: 70%;
+  text-align: right;
+}
+h2{
+  margin-left: 70%;
+  margin-top: 5%;
+}
+
+h3{
+  margin-left: 60%;
+  margin-top: 4%;
+}
+body{
+  background-image: url(SteveJobs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+button:first-of-type{
+  margin-left: 63%;
+}
+#code{
+  height: 300px;
+  width: 320px;
+  margin-left: 70%;
+  margin-top: 30px;
+  clear: both;
+}
+
+#output{
+  width: 320px;
+  margin-left: 70%;
+  margin-top: 30px;
+}
+button{
+  background-color: inherit;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-size: contain;
+    /* width: 1166px;
+    height: 850px; */
+  }
+  h1, h2, h3{
+    color: white;
+    /* margin-left: 70%; */
+    margin: none;
+    /* text-align: center; */
+  }
+  button:first-of-type{
+    margin-left: none;
+  }
+  h1{
+    display: none;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 1129px) {
+
+  body{
+    background-size: contain;
+    /* width: 1166px;
+    height: 850px; */
+  }
+
+  h1, h2, h3{
+    color: white;
+    /* margin-left: 70%; */
+    margin: none;
+    text-align: right;
+  }
+  button:first-of-type{
+    margin-left:2%;
+  }
+}
+
+@media (min-width: 1130px) and (max-width: 1680px) {
+  body{
+    background-size: contain;
+    width: 1166px;
+    height: 850px;
+  }
+  button:first-of-type{
+    margin-left: none;
+  }
